@@ -1,0 +1,669 @@
+/* All common css start   */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ol,li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1 h2 h3 h4 h5 h6  {
+    display: inline-block;
+}
+
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+
+
+/* All common css End  */
+
+
+/* <!-- top Header Part start  --> */
+ 
+#tophead{
+    padding: 18px 0;
+    background: #3E3E3E;
+}
+
+a{
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    font-size: 12px;
+    display: inline-block;
+    
+
+}
+
+.felexx i{
+    font-size: 15px;
+    padding-right: 10px;
+    color: white;
+
+}
+
+a:hover{
+    color: goldenrod;
+}
+
+.felexx{
+    display: flex;
+}
+
+.felexx h5{
+    color: white;
+    font-size: 12px;
+    font-family: "Open Sans", sans-serif;
+    padding-left: 32px;
+}
+
+.felexx ul li{
+    display: inline-block;
+}
+
+.felexx ul li a{
+    padding-left: 15px;
+}
+
+.felexx ul{
+    padding-left: 720px;
+}
+
+
+.felexx ul li a i:hover{
+       color: goldenrod;
+}
+
+ /* <!-- top Header Part End  --> */
+
+
+/* header part start */
+
+
+.logowithmenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    padding-top: 20px;
+}
+
+.menu ul li{
+    display: inline-block;
+}
+
+.menu ul li a{
+    line-height: 90px;
+    padding: 0 20px;
+    font-family:  "Open Sans", sans-serif;
+    font-weight: bold;
+    color: #555555;
+    text-transform: uppercase;
+    font-size: 16px;
+    transition: 0.4s;
+
+}
+
+/* drop down part start */
+.drop{
+    position: relative;
+}
+
+.down{
+    position: absolute;
+    visibility: hidden;
+
+}
+
+.drop .down li a {
+    line-height: 5px;
+    display: block;
+    font-size: 16px;
+    text-transform: capitalize;
+    transition: .6s;
+    font-weight: 400;
+
+
+}
+
+.drop:hover .down{
+    visibility: visible;
+
+    
+}
+
+ .drop .down li {
+   padding: 15px 30px;
+   background: white;
+   display: block;
+}
+
+
+/* drop down part end */
+
+
+.menu ul li a:hover{
+    color: goldenrod;
+}
+
+/* header part end */
+
+
+/* banner part start */
+#bannerpart{
+   background: url(../images/banner.jpg);
+   background-position: center center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
+.banneroverly{
+    padding-top: 250px;
+    padding-bottom: 330px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.bannercotent{
+    text-align: center;
+    color: white;
+}
+
+.bannercotent h3{
+  font-family:"Roboto Slab", serif ;
+  font-size: 30px;
+  font-weight: 700;
+  padding-bottom: 8px;
+}
+
+.bannercotent h1{
+  font-family:"Roboto Slab", serif ;
+  font-size: 60px;
+  font-weight: 700;
+  
+}
+
+.bannercotent span{
+    color: #F8B864;
+}
+
+.bannercotent p{
+    font-family:  "Open Sans", sans-serif;
+    font-size: 18px;
+    padding: 0 245px;
+    line-height: 30px;
+    padding-top: 12px;
+    
+}
+
+.bannercotent a{
+   padding: 15px 35px;
+   background: #F8B864;
+   border-radius: 50px;
+   display: inline-block;
+   transition: 0.4s;
+   font-family:"Open Sans", sans-serif ; 
+   font-size:16px ;
+   color: white;
+   font-weight: bold;
+   margin-top: 50px;
+}
+
+  
+.bannercotent a:hover{
+   color: #777;
+   background: white;
+}
+    
+/* banner part end */
+
+
+/* Goal part start */
+#goalpart{
+    height: 610px;
+}
+
+.cardpart{
+    position: relative;
+}
+
+.card{
+    position: absolute;
+    width: 100%;
+    top: -105px;
+    left: 0;
+  padding-top: 75px;
+  padding-bottom: 160px;
+  -webkit-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.75);
+background: white;
+}
+
+.cardtext{
+    text-align: center;
+}
+
+.cardtext h3{
+    font-family:"Roboto Slab", serif;
+    font-size: 36px;
+    color: #686868;
+}
+
+.cardimage{
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.cardimage::before{
+    position: absolute;
+    width: 165px;
+    height: .5px;
+    background:#dddddd;
+    content:"" ;
+    left: -190px;
+    top: 50%;
+}
+
+.cardimage::after{
+    position: absolute;
+    width: 165px;
+    height: .5px;
+    background:#dddddd;
+    content:"" ;
+    right: -190px;
+    top: 50%;
+}
+
+.cardtext p{
+    font-family:"Open Sans", sans-serif;
+    font-size: 18px;
+    padding-top: 10px;
+    color: #777777;
+}
+
+.carditempart{
+    display: flex;
+    padding-top: 80px;
+    padding-right: 70px;
+    padding-left: 70px;
+    justify-content: space-between;
+}
+
+.carditem{
+    width: 25%;
+    text-align: center;
+}
+
+.carditem i{
+    font-size: 36px;
+    color: #777777;
+}
+
+.carditem h3{
+    color:#7e7e7e;
+    font-family:"Roboto Slab", serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.carditem p{
+    color: #686868;
+    font-family:"Open Sans", sans-serif ;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 24px;
+}
+
+.carditemone{
+    width: 25%;
+    text-align: center;
+}
+
+.carditemone i{
+    font-size: 36px;
+    color: #777777;
+}
+
+.carditemone h3{
+    color:#7e7e7e;
+    font-family:"Roboto Slab", serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.carditemone p{
+    color: #686868;
+    font-family:"Open Sans", sans-serif ;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 24px;
+}
+
+.carditemtwo{
+    width: 25%;
+    text-align: center;
+}
+
+.carditemtwo i{
+    font-size: 36px;
+    color: #777777;
+}
+
+.carditemtwo h3{
+    color:#7e7e7e;
+    font-family:"Roboto Slab", serif;
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.carditemtwo p{
+    color: #686868;
+    font-family:"Open Sans", sans-serif ;
+    font-size: 14px;
+    padding-top: 20px;
+    line-height: 24px;
+}
+/* Goal part end */
+
+
+ /* Causes part start */
+   #causespart{
+    height: 870px;
+ }
+ 
+ .causepart{
+    width: 100%;
+ }
+
+ .causepart{
+    text-align: center;
+ }
+ 
+ .causepart h3{
+   font-size: 36px;
+   font-family:"Roboto Slab", serif ;
+   color: #555555;
+ }
+ 
+
+ .causesimage{
+    margin-top: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.causesimage::before{
+    position: absolute;
+    width: 165px;
+    height: .5px;
+    background:#dddddd;
+    content:"" ;
+    left: -190px;
+    top: 50%;
+}
+
+.causesimage::after{
+    position: absolute;
+    width: 165px;
+    height: .5px;
+    background:#dddddd;
+    content:"" ;
+    right: -190px;
+    top: 50%;
+}
+
+.causepart p {
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    color:#777777 ;
+    line-height: 40px;
+}
+
+.causeimgpart{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.causeimgitem{
+    width: 31%;
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.causeimgitem{
+    margin-top: 70px;
+}
+
+.causeimgone img{
+    width: 100%;
+}
+
+.causeimgtext{
+    padding: 30px;
+}
+
+.causeimgtext h4{
+    font-size: 18px;
+    font-family:"Roboto Slab", serif ;
+    transition: .5s;
+    color: #555555;
+    line-height: 45px;
+}
+
+.causeimgtext h4:hover{
+  color: #f8b864;
+}
+
+.causeimgtext p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #777777;
+    line-height: 25px;
+}
+
+.causetextbtm{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #686868;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.right p{
+    font-size: 14px;
+    font-family: "Open Sans", sans-serif;
+    color: #686868;
+    line-height: 23px;
+    font-weight: bold;
+}
+
+.btmbtm{
+    padding: 10px 20px;
+    background:#F8B864;
+    border-radius: 50px;
+    font-size: 14px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+/* Causes part end */
+
+/* Angel part start */
+   #angelpart{
+    padding: 120px 0;
+    background: #00000007
+   }
+
+   .angelflex{
+    display: flex;
+   }
+
+   .imgprt{
+    width: 50%;
+   }
+
+   .angeltopimg{
+    position: relative;
+   }
+
+   .angeltopimg a{
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.angeltext{
+    padding-top:70px;
+    padding-left: 40px;
+}
+
+.angeltext h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 34px;
+    position: relative;
+    font-family:"Roboto Slab", serif ;
+    color: #555555;
+}
+
+.angeltext h3::before{
+    background-color: #d99c4d;
+    bottom: 13px;
+    content: "";
+    height: 2px;
+    position: absolute;
+    left: 0px;
+    width: 70px;
+}
+
+.angeltext p{
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686868;
+}
+
+   .angelbutton{
+    background:#f8b864 ;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 30px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.littleflex{
+    display: flex;
+}
+
+.littletext{
+    padding-top:70px;
+    padding-left: 10px;
+}
+
+.littletext h3{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding-bottom: 34px;
+    position: relative;
+    font-family:"Roboto Slab", serif ;
+    color: #555555;
+    padding-left: 120px;
+}
+
+.littletext h3::after{
+    background-color: #d99c4d;
+    bottom: 13px;
+    content: "";
+    height: 1.5px;
+    position: absolute;
+    right: 0px;
+    width: 70px;
+}
+
+.littletext p{
+    font-family:"Open Sans", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #686868;
+}
+
+   .angelbutton{
+    background:#f8b864 ;
+    border-radius: 50px;
+    color: #fff;
+    display: inline-block;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px 30px;
+    position: relative;
+    margin-top: 10px;
+}
+
+.littletext{
+    text-align: right;
+    padding-right: 60px;
+}
+   
+
+.angelbotompart{
+    margin-top: 100px;
+}
+/* Angel part end */
+
+/* middle banner part start */
+#middlebanner{
+    background: url(../images/middlebanner.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+ 
+ .middleoverly{
+     padding-top:170px;
+     padding-bottom:160px;
+     background: rgba(0, 0, 0, 0.5);
+ }
+
+ .middlebannertextflex{
+    display: flex;
+    justify-content: space-between;
+ }
+/* middle banner part end */
+
+
+/* header part start */
+/* header part end */
+/* header part start */
+/* header part end */
+/* header part start */
+/* header part end */
+    
